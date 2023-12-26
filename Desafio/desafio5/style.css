@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Titulos';
+    src: url(fontes/VCR_OSD_MONO_1.001.ttf) format('truetype');
+}
+ :root{
+    --cordefundo1:#2F2963;
+    --cordefundo2:#454372;
+    --cordajanela:#CEE5F2;
+    --cordajanelatop:#2b2e2f;
+    --cordaborda1:#798185ab;
+    --cordaborda2:#f8fbfd65;
+    --cordostitulos:#E59500;
+    --cordotitulo:#ffffff;
+ } 
+ body{
+   background-image: linear-gradient(to left, #2F2963, #454372);
+   margin: 20% 0% 0% 25%
+
+   
+}
+ header{
+   background-color:var(--cordajanelatop);
+   border-radius: 20px 20px 0px 0px;
+   box-shadow: 2px 2px 3px var(--cordaborda1);
+   width:60%;
+   padding: 10px;
+   height: 20%;
+ 
+ }
+ header > h1 {
+color:var(--cordostitulos);
+margin-bottom:0px;
+text-align: center;
+font-family: "Titulos",Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+ main{
+   background-color: var(--cordajanela);
+   border-radius: 0px 0px 20px 20px;
+   height: 20%; 
+   width: 60%; 
+   text-align: justify;
+   padding: 10px;
+   
+ }
+
+ main > h2 {
+   font-family: "Titulos";
+   color: var(--cordostitulos);
+   background-color: var(--cordajanelatop);
+   border-radius: 20px;
+   padding: 10px;
+   margin-bottom: 0px;
+ }
+
+ .quemsoueu{
+   border-radius: 15px 15px 0px 0px ;
+   
+ }
+
+ .paragrafos{
+   text-indent: 20px;
+   text-align: justify;
+   padding: 5px 20px 5px 20px;
+   background-color: var(--cordaborda1);
+   margin-top: 0px;
+   border-radius: 0px 0px 15px 15px;
+   height: 30%;
+ }
+ ul{
+   padding: 10px 20px 10px 40px;
+   background-color: var(--cordaborda1);
+   margin-top: 0px;
+   border-radius: 0px 0px 15px 15px;
+   height: 30%;
+ }
+ 
